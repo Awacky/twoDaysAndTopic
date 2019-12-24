@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double n = input.nextDouble();
+        long n = input.nextLong();
         if (n==1){
             System.out.println(1);
         }else {
-            System.out.println((n+1)*n/2);
+            System.out.println((long)(n+1)*n/2);
         }
     }
 }
