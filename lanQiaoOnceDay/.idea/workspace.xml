@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba5b521a-dc46-461a-b853-fce898dd7a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/lanQiaoOnceDay/leapYear/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yangHuiSanjiaoxing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/specialNumber/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="circleArea.Main" />
       <module name="lanQiaoOnceDay" />
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="specialNumber.Main" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="PATTERN" value="specialNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +166,8 @@
       <workItem from="1577189048781" duration="665000" />
       <workItem from="1577236493192" duration="1823000" />
       <workItem from="1577373296049" duration="53000" />
-      <workItem from="1577716599844" duration="2427000" />
+      <workItem from="1577716599844" duration="3180000" />
+      <workItem from="1577891421286" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="闰年判断">
       <created>1577237579725</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577237579725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="发现一个问题，自己本地环境怎么测试怎么正确，然后，提交上去就错误。。。">
+      <created>1577719063055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577719063055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,29 +191,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="闰年判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="闰年判断" />
+    <MESSAGE value="发现一个问题，自己本地环境怎么测试怎么正确，然后，提交上去就错误。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="发现一个问题，自己本地环境怎么测试怎么正确，然后，提交上去就错误。。。" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="243" y="36" key="CommitChangelistDialog2" timestamp="1577237579596">
+    <state x="243" y="36" key="CommitChangelistDialog2" timestamp="1577719062909">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state x="243" y="36" key="CommitChangelistDialog2/71.24.1849.1176@71.24.1849.1176" timestamp="1577237579596" />
-    <state width="1779" height="331" key="GridCell.Tab.0.bottom" timestamp="1577718800264">
+    <state x="243" y="36" key="CommitChangelistDialog2/71.24.1849.1176@71.24.1849.1176" timestamp="1577719062909" />
+    <state width="1779" height="331" key="GridCell.Tab.0.bottom" timestamp="1577891787046">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state width="1779" height="331" key="GridCell.Tab.0.bottom/71.24.1849.1176@71.24.1849.1176" timestamp="1577718800264" />
-    <state width="1779" height="331" key="GridCell.Tab.0.center" timestamp="1577718800264">
+    <state width="1779" height="331" key="GridCell.Tab.0.bottom/71.24.1849.1176@71.24.1849.1176" timestamp="1577891787046" />
+    <state width="1779" height="331" key="GridCell.Tab.0.center" timestamp="1577891787045">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state width="1779" height="331" key="GridCell.Tab.0.center/71.24.1849.1176@71.24.1849.1176" timestamp="1577718800264" />
-    <state width="1779" height="331" key="GridCell.Tab.0.left" timestamp="1577718800264">
+    <state width="1779" height="331" key="GridCell.Tab.0.center/71.24.1849.1176@71.24.1849.1176" timestamp="1577891787045" />
+    <state width="1779" height="331" key="GridCell.Tab.0.left" timestamp="1577891787045">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state width="1779" height="331" key="GridCell.Tab.0.left/71.24.1849.1176@71.24.1849.1176" timestamp="1577718800264" />
-    <state width="1779" height="331" key="GridCell.Tab.0.right" timestamp="1577718800264">
+    <state width="1779" height="331" key="GridCell.Tab.0.left/71.24.1849.1176@71.24.1849.1176" timestamp="1577891787045" />
+    <state width="1779" height="331" key="GridCell.Tab.0.right" timestamp="1577891787046">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state width="1779" height="331" key="GridCell.Tab.0.right/71.24.1849.1176@71.24.1849.1176" timestamp="1577718800264" />
+    <state width="1779" height="331" key="GridCell.Tab.0.right/71.24.1849.1176@71.24.1849.1176" timestamp="1577891787046" />
     <state width="1779" height="397" key="GridCell.Tab.1.bottom" timestamp="1577108036879">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
@@ -223,9 +231,9 @@
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
     <state width="1779" height="397" key="GridCell.Tab.1.right/71.24.1849.1176@71.24.1849.1176" timestamp="1577108036879" />
-    <state x="625" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577716816710">
+    <state x="625" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577892197539">
       <screen x="71" y="24" width="1849" height="1176" />
     </state>
-    <state x="625" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/71.24.1849.1176@71.24.1849.1176" timestamp="1577716816710" />
+    <state x="625" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/71.24.1849.1176@71.24.1849.1176" timestamp="1577892197539" />
   </component>
 </project>
