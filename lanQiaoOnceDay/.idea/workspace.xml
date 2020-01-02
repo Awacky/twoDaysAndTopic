@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba5b521a-dc46-461a-b853-fce898dd7a4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leapYear/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SequenceSum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SequenceSum/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/share/maven" />
+        <option name="userSettingsFile" value="/usr/share/maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1VLIZJpPNQwMp5IEmD2riuYBW1m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="circleArea.Main" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="circleArea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenceSum.Main" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SequenceSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leapYear.Main" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leapYear.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci.Main" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba5b521a-dc46-461a-b853-fce898dd7a4d" name="Default Changelist" comment="" />
+      <created>1577026002918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577026002918</updated>
+      <workItem from="1577026004390" duration="7388000" />
+      <workItem from="1577112454585" duration="6000" />
+      <workItem from="1577189048781" duration="665000" />
+      <workItem from="1577236493192" duration="1034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="284" key="GridCell.Tab.0.bottom/71.24.1849.1176@71.24.1849.1176" timestamp="1577237246168" />
+    <state width="1779" height="284" key="GridCell.Tab.0.center" timestamp="1577237246167">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="284" key="GridCell.Tab.0.center/71.24.1849.1176@71.24.1849.1176" timestamp="1577237246167" />
+    <state width="1779" height="284" key="GridCell.Tab.0.left" timestamp="1577237246167">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="284" key="GridCell.Tab.0.left/71.24.1849.1176@71.24.1849.1176" timestamp="1577237246167" />
+    <state width="1779" height="284" key="GridCell.Tab.0.right" timestamp="1577237246168">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="284" key="GridCell.Tab.0.right/71.24.1849.1176@71.24.1849.1176" timestamp="1577237246168" />
+    <state width="1779" height="397" key="GridCell.Tab.1.bottom" timestamp="1577108036879">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="397" key="GridCell.Tab.1.bottom/71.24.1849.1176@71.24.1849.1176" timestamp="1577108036879" />
+    <state width="1779" height="397" key="GridCell.Tab.1.center" timestamp="1577108036878">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="397" key="GridCell.Tab.1.center/71.24.1849.1176@71.24.1849.1176" timestamp="1577108036878" />
+    <state width="1779" height="397" key="GridCell.Tab.1.left" timestamp="1577108036877">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="397" key="GridCell.Tab.1.left/71.24.1849.1176@71.24.1849.1176" timestamp="1577108036877" />
+    <state width="1779" height="397" key="GridCell.Tab.1.right" timestamp="1577108036879">
+      <screen x="71" y="24" width="1849" height="1176" />
+    </state>
+    <state width="1779" height="397" key="GridCell.Tab.1.right/71.24.1849.1176@71.24.1849.1176" timestamp="1577108036879" />
+  </component>
+</project>
