@@ -29,7 +29,7 @@ public class Main {
 		int i =0;
 		while(true){
 //			先判断是否到了最后一个
-			if (i==array1.length-1) {
+			if (i>=array1.length) {
 				break;
 			}
 //			判断值是否相等
