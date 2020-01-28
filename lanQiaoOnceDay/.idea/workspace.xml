@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/FindUniqueNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_02Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/FindUniqueNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/FindUniqueNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._02Test">
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AUniquePairOfNumber.Main" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AUniquePairOfNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._20_1_28_1factorial">
     <configuration name="_01number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._01number" />
       <module name="lanQiaoOnceDay" />
@@ -111,6 +98,19 @@
     </configuration>
     <configuration name="_02Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._02Test" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_20_1_28_1factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._20_1_28_1factorial" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._20_1_28_1factorial" />
         <item itemvalue="Application._02Test" />
         <item itemvalue="Application._01number" />
         <item itemvalue="Application.binToDec" />
         <item itemvalue="Application.oTOb" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +179,8 @@
       <workItem from="1579534416271" duration="5349000" />
       <workItem from="1579786655148" duration="1871000" />
       <workItem from="1579888977122" duration="5062000" />
+      <workItem from="1579966587340" duration="1076000" />
+      <workItem from="1580212887346" duration="4877000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -208,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579791367127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="其他进制的理解">
+      <created>1579966612974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579966612974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +247,8 @@
     <MESSAGE value="十进制转化成二进制" />
     <MESSAGE value="二进制转十进制、十进制转化成二进制（完成了一半）" />
     <MESSAGE value="左移右移练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="左移右移练习" />
+    <MESSAGE value="其他进制的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="其他进制的理解" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
