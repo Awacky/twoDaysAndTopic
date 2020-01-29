@@ -16,6 +16,7 @@ public class _20_1_28_1factorial {
         System.out.println(factorialArr(new int[]{1,2,3,4,5},0));
         System.out.println(fli(5));
         System.out.println(gcd(319,377));
+        printHanoiTower(5,"A","B","C");
 
     }
     public static int factorial(int n){
@@ -47,6 +48,35 @@ public class _20_1_28_1factorial {
         if (n==0)
             return m ;
         return gcd(n,m%n);
+    }
+
+//      插入排序改成递归（把前面部分排好顺序）
+    static void insertSort(int[] arr, int k){
+        if(k ==0){
+            return;
+        }
+        insertSort(arr,k-1);
+        int x = arr[k];
+        int index = k -1 ;
+        while (x<arr[index]){
+            arr[index+1] = arr[index];
+            index --;
+        }
+        arr[index] = x;
+    }
+
+//    递归实现汉诺塔（求移动了多少步骤）
+    static void  printHanoiTower(int N ,String from, String to, String help){
+        if(N==1){
+            System.out.println("move"+N+"from"+from+"to"+to);
+            return;
+        }
+//        先把n-1个盘子移动到辅助空间去
+        printHanoiTower(N -1,from,help,to);
+//        N可以顺利到达target
+        System.out.println("move"+N+"from"+from+"to"+to);
+//        让n-1从辅助空间到原空间去
+        printHanoiTower(N-1,help,to,from);
     }
 
 }

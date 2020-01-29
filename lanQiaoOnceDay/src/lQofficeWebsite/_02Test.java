@@ -4,7 +4,7 @@ package lQofficeWebsite;
  * @author Awacky
  * @date 2020/1/25 2:14
  */
-public class _02Test {
+public class  _02Test {
     public static void main(String[] args) {
         double num = 0.625;
         StringBuilder sb = new StringBuilder("0.");

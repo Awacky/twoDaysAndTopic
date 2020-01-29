@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/dichotomy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/FindUniqueNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/FindUniqueNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/_02Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_02Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +181,8 @@
       <workItem from="1579786655148" duration="1871000" />
       <workItem from="1579888977122" duration="5062000" />
       <workItem from="1579966587340" duration="1076000" />
-      <workItem from="1580212887346" duration="4877000" />
+      <workItem from="1580212887346" duration="7209000" />
+      <workItem from="1580285352330" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579966612974</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="今天主要学习了一下递归">
+      <created>1580220305348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580220305348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +257,8 @@
     <MESSAGE value="二进制转十进制、十进制转化成二进制（完成了一半）" />
     <MESSAGE value="左移右移练习" />
     <MESSAGE value="其他进制的理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="其他进制的理解" />
+    <MESSAGE value="今天主要学习了一下递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天主要学习了一下递归" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
