@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/dichotomy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_31_insertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_31_shellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/towersOfHanoi/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/towersOfHanoi/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/_02Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_02Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/_20_1_28_1factorial.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,9 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lanQiaoOnceDay" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._20_1_28_1factorial">
+  <component name="RunManager" selected="Application._20_1_31_shellSort">
     <configuration name="_01number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._01number" />
       <module name="lanQiaoOnceDay" />
@@ -123,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binToDec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversionOfNumberSystems.binToDec" />
+    <configuration name="_20_1_31_shellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._20_1_31_shellSort" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversionOfNumberSystems.*" />
+          <option name="PATTERN" value="lQofficeWebsite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oTOb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversionOfNumberSystems.oTOb" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="towersOfHanoi.main" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversionOfNumberSystems.*" />
+          <option name="PATTERN" value="towersOfHanoi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._20_1_31_shellSort" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application._20_1_28_1factorial" />
         <item itemvalue="Application._02Test" />
         <item itemvalue="Application._01number" />
-        <item itemvalue="Application.binToDec" />
-        <item itemvalue="Application.oTOb" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +187,7 @@
       <workItem from="1579966587340" duration="1076000" />
       <workItem from="1580212887346" duration="7209000" />
       <workItem from="1580285352330" duration="2659000" />
+      <workItem from="1580451596151" duration="7347000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
