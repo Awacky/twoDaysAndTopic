@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/FindStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/IncreaseArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/RotateMinNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/RotateMinNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +85,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindStr">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="FindStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.FindStr" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lQofficeWebsite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.sort.QuickSort" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_20_1_31_shellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite._20_1_31_shellSort" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.FindStr" />
         <item itemvalue="Application.RotateMinNumber" />
         <item itemvalue="Application.XiaoBaiClimbTheStairs" />
         <item itemvalue="Application._20_1_31_insertSort" />
-        <item itemvalue="Application._20_1_31_shellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,8 @@
       <workItem from="1580451596151" duration="7347000" />
       <workItem from="1580546089453" duration="3679000" />
       <workItem from="1580642591943" duration="2266000" />
-      <workItem from="1580736686847" duration="2977000" />
+      <workItem from="1580736686847" duration="3113000" />
+      <workItem from="1580794251237" duration="6350000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580568273258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="刷了几道题">
+      <created>1580739686876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580739686876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +280,8 @@
     <MESSAGE value="其他进制的理解" />
     <MESSAGE value="今天主要学习了一下递归" />
     <MESSAGE value="整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理" />
+    <MESSAGE value="刷了几道题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷了几道题" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
