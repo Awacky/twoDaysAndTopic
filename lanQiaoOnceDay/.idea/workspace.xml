@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="快排的学习">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/sort/FastSort04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/sort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/sort/QuickSort3.java" afterDir="false" />
+    <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/sort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Util.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort2">
-    <configuration name="FindStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.FindStr" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.sort.MergeSort" />
       <module name="lanQiaoOnceDay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.*" />
+          <option name="PATTERN" value="lQofficeWebsite.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort2" />
         <item itemvalue="Application.QuickSort3" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application._01number" />
-        <item itemvalue="Application.FindStr" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,8 @@
       <workItem from="1580546089453" duration="3679000" />
       <workItem from="1580642591943" duration="2266000" />
       <workItem from="1580736686847" duration="3113000" />
-      <workItem from="1580794251237" duration="16090000" />
+      <workItem from="1580794251237" duration="16837000" />
+      <workItem from="1580889811087" duration="6267000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580808444533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="快排的几种思想的学习">
+      <created>1580826638504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580826638504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,8 @@
     <MESSAGE value="整理" />
     <MESSAGE value="刷了几道题" />
     <MESSAGE value="快排的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="快排的学习" />
+    <MESSAGE value="快排的几种思想的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="快排的几种思想的学习" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">

@@ -17,4 +17,7 @@ public class Util {
             System.out.println(i);
         }
     }
+    public static void copy (int arr1,int arr2){
+
+    }
 }
