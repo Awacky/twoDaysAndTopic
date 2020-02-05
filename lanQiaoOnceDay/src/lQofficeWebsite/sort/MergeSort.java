@@ -6,6 +6,9 @@ import util.Util;
  * @author Awacky
  * @date 2020/2/5 16:19
  */
+///*
+// 归并排序多的核心：
+// 将一个数组一分为二，形成两个数组，左边和右边比大小开始进入*/
 public class MergeSort {
     public static void main(String[] args) {
         int[] data = {305, 65 , 7, 90 , 120 ,110, 8};
@@ -14,16 +17,18 @@ public class MergeSort {
 
     }
     private static void mergeSort(int[] data , int min , int max){
-//        这块是自己调用自己
+
         if(min < max){
-            int mid = (min + max) / 2;
+            int mid = min + ((max-min)>>1);
             mergeSort(data, min, mid);
             mergeSort(data, mid + 1, max);
             merge(data, min, mid, max);
         }
     }
     private static void merge(int[] data,int first, int mid, int last) {
-        int[] temp = data;
+//
+//        int[] temp = data;
+        int[] temp = Util.copy(data,data.length);
         int left = first;   //左侧队伍的头部指针
         int right = mid+1;   //右侧队伍的头部指针
         int current = first;    //原素组的指针，指向待填入数据的位置

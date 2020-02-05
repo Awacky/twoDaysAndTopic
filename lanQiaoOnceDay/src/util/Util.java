@@ -17,7 +17,11 @@ public class Util {
             System.out.println(i);
         }
     }
-    public static void copy (int arr1,int arr2){
-
+    public static int[] copy (int[] arr1 , int length){
+        int[] arr2 =  new int[length];
+        for (int i =0;i<arr1.length;i++){
+            arr2[i] = arr1[i];
+        }
+        return arr2;
     }
 }
