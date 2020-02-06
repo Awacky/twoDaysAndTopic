@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SelectK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectK">
+  <component name="RunManager" selected="Application.SurpassAhalfNumber">
     <configuration name="AdjustOdevity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.AdjustOdevity" />
       <module name="lanQiaoOnceDay" />
@@ -125,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.sort.QuickSort3" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.SelectK" />
       <module name="lanQiaoOnceDay" />
@@ -151,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SurpassAhalfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.SurpassAhalfNumber" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SurpassAhalfNumber" />
         <item itemvalue="Application.SelectK" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.AdjustOdevity" />
         <item itemvalue="Application.QuickSort2" />
-        <item itemvalue="Application.QuickSort3" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,7 @@
       <workItem from="1580794251237" duration="16837000" />
       <workItem from="1580889811087" duration="6388000" />
       <workItem from="1580942860194" duration="3593000" />
-      <workItem from="1580971724668" duration="2180000" />
+      <workItem from="1580971724668" duration="3040000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580946386531</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="做练习题，关于排序的应用">
+      <created>1580973937322</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580973937322</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +322,8 @@
     <MESSAGE value="快排的几种思想的学习" />
     <MESSAGE value="归并的学习" />
     <MESSAGE value="改掉昨天归并的错误，做了一个小练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="改掉昨天归并的错误，做了一个小练习" />
+    <MESSAGE value="做练习题，关于排序的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="做练习题，关于排序的应用" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
