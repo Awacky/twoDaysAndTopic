@@ -24,9 +24,10 @@ public class SurpassAhalfNumber {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,1,1,1,3,2,4};
+        int[] arr = {1,1,2,2,3,2,4};
 //        slove1(arr);
-        slove3(arr);
+//        slove3(arr);
+        SurpassAhalfNumber2.slove4(arr);
     }
 
 }
