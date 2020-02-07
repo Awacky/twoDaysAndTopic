@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/MinID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/MinFreeId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/SurpassAhalfNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +191,8 @@
       <workItem from="1580794251237" duration="16837000" />
       <workItem from="1580889811087" duration="6388000" />
       <workItem from="1580942860194" duration="3593000" />
-      <workItem from="1580971724668" duration="8240000" />
+      <workItem from="1580971724668" duration="8402000" />
+      <workItem from="1581062224221" duration="5130000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -293,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580979557619</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="小练习">
+      <created>1580996432460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580996432460</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
