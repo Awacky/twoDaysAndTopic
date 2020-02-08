@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,20 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinID">
-    <configuration name="AdjustOdevity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.AdjustOdevity" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.merageOrderlyArr">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.sort.MergeSort" />
       <module name="lanQiaoOnceDay" />
@@ -150,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="merageOrderlyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.merageOrderlyArr" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.merageOrderlyArr" />
         <item itemvalue="Application.MinID" />
         <item itemvalue="Application.SurpassAhalfNumber" />
         <item itemvalue="Application.SelectK" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.AdjustOdevity" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,7 @@
       <workItem from="1580942860194" duration="3593000" />
       <workItem from="1580971724668" duration="8402000" />
       <workItem from="1581062224221" duration="5172000" />
-      <workItem from="1581144001761" duration="4237000" />
+      <workItem from="1581144001761" duration="5563000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581082051377</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="小练习">
+      <created>1581168750164</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581168750164</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,21 +414,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lQofficeWebsite/sort/MergeSort.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lQofficeWebsite/sort/MergeSort.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lQofficeWebsite/sort/MergeSort.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lQofficeWebsite/practice/AdjustOdevity.java</url>
           <line>24</line>
           <option name="timeStamp" value="13" />
@@ -430,6 +422,16 @@
           <url>file://$PROJECT_DIR$/src/lQofficeWebsite/practice/AdjustOdevity.java</url>
           <line>37</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
