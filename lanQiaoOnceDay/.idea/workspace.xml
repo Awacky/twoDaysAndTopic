@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/TheReverseOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,20 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.merageOrderlyArr">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.sort.MergeSort" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TheReverseOf">
     <configuration name="MinID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.MinID" />
       <module name="lanQiaoOnceDay" />
@@ -137,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheReverseOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.TheReverseOf" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="merageOrderlyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.merageOrderlyArr" />
       <module name="lanQiaoOnceDay" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheReverseOf" />
         <item itemvalue="Application.merageOrderlyArr" />
         <item itemvalue="Application.MinID" />
         <item itemvalue="Application.SurpassAhalfNumber" />
         <item itemvalue="Application.SelectK" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,8 @@
       <workItem from="1580942860194" duration="3593000" />
       <workItem from="1580971724668" duration="8402000" />
       <workItem from="1581062224221" duration="5172000" />
-      <workItem from="1581144001761" duration="5563000" />
+      <workItem from="1581144001761" duration="5967000" />
+      <workItem from="1581234372764" duration="3011000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -314,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581168750164</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="归并的小练习，这次训练发现自己问题好多，一个是思维不严谨，另一个是部分变量考虑的顺序就根本不对，还有自己本身对那些排序算法的原理没有搞清楚，但是思路还是可以，快排的思路，和归并的思路。">
+      <created>1581170382704</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581170382704</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +362,8 @@
     <MESSAGE value="改掉昨天归并的错误，做了一个小练习" />
     <MESSAGE value="做练习题，关于排序的应用" />
     <MESSAGE value="小练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="小练习" />
+    <MESSAGE value="归并的小练习，这次训练发现自己问题好多，一个是思维不严谨，另一个是部分变量考虑的顺序就根本不对，还有自己本身对那些排序算法的原理没有搞清楚，但是思路还是可以，快排的思路，和归并的思路。" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并的小练习，这次训练发现自己问题好多，一个是思维不严谨，另一个是部分变量考虑的顺序就根本不对，还有自己本身对那些排序算法的原理没有搞清楚，但是思路还是可以，快排的思路，和归并的思路。" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
@@ -425,7 +434,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lQofficeWebsite/practice/merageOrderlyArr.java</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
