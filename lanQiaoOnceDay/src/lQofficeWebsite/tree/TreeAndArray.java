@@ -28,16 +28,16 @@ public class TreeAndArray {
             middleOrder(arr,2*i+2); //输出右子树
         }
     }
-//    后序遍历
-    public static void postOrder(int[] arr,int i ){
-        if (i < arr.length){
-            return;
-        }else {
-            postOrder(arr,2*i+1);
-            postOrder(arr,2*i+2);
-            System.out.println(arr[i]);
-        }
-    }
+////    后序遍历
+//    public static void postOrder(int[] arr,int i ){
+//        if (i < arr.length){
+//            return;
+//        }else {
+//            postOrder(arr,2*i+1);
+//            postOrder(arr,2*i+2);
+//            System.out.println(arr[i]);
+//        }
+//    }
 
     public static void main(String[] args) {
         int[] arr = {78,56,34,43,4,1,15,2,23};

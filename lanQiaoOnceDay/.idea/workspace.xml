@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/tree/TreeAndArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/tree/heapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lQofficeWebsite/tree/heapSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/tree/TreeAndArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/tree/TreeAndArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,33 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeAndArray">
-    <configuration name="MinID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.MinID" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SurpassAhalfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.SurpassAhalfNumber" />
-      <module name="lanQiaoOnceDay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lQofficeWebsite.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.heapSort">
     <configuration name="TheReverseOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.TheReverseOf" />
       <module name="lanQiaoOnceDay" />
@@ -137,6 +113,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="heapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.tree.heapSort" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heapSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.tree.heapSort2" />
+      <module name="lanQiaoOnceDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lQofficeWebsite.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="merageOrderlyArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lQofficeWebsite.practice.merageOrderlyArr" />
       <module name="lanQiaoOnceDay" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.heapSort" />
+        <item itemvalue="Application.heapSort2" />
         <item itemvalue="Application.TreeAndArray" />
         <item itemvalue="Application.TheReverseOf" />
         <item itemvalue="Application.merageOrderlyArr" />
-        <item itemvalue="Application.MinID" />
-        <item itemvalue="Application.SurpassAhalfNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,7 @@
       <workItem from="1581062224221" duration="5172000" />
       <workItem from="1581144001761" duration="5967000" />
       <workItem from="1581234372764" duration="3821000" />
-      <workItem from="1581239540409" duration="1863000" />
+      <workItem from="1581239540409" duration="6569000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
@@ -330,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581238900524</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="在学树，完成了树的前序，中序。后序不对">
+      <created>1581241601803</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581241601803</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +381,8 @@
     <MESSAGE value="小练习" />
     <MESSAGE value="归并的小练习，这次训练发现自己问题好多，一个是思维不严谨，另一个是部分变量考虑的顺序就根本不对，还有自己本身对那些排序算法的原理没有搞清楚，但是思路还是可以，快排的思路，和归并的思路。" />
     <MESSAGE value="排序部分结束刷完了" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序部分结束刷完了" />
+    <MESSAGE value="在学树，完成了树的前序，中序。后序不对" />
+    <option name="LAST_COMMIT_MESSAGE" value="在学树，完成了树的前序，中序。后序不对" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1779" height="284" key="GridCell.Tab.0.bottom" timestamp="1577237246168">
