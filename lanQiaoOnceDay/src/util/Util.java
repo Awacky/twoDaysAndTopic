@@ -1,5 +1,4 @@
 package util;
-
 /**
  * @author Awacky
  * @date 2020/2/4 15:03
@@ -24,4 +23,16 @@ public class Util {
         }
         return arr2;
     }
+
+
+//    public static int maxOf(int[] arr) {
+//        Preconditions.checkNotNull(arr);
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//            if (arr[i] > max) {
+//                max = arr[i];
+//            }
+//        }
+//        return max;
+//    }
 }
