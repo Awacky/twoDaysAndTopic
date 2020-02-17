@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lQofficeWebsite/tree/_8CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lQofficeWebsite/tree/_8CountSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/ShellSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,6 +201,7 @@
       <workItem from="1581335570253" duration="1614000" />
       <workItem from="1581339100847" duration="26000" />
       <workItem from="1581339588947" duration="48000" />
+      <workItem from="1581951701416" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>
