@@ -379,4 +379,13 @@ public class Util {
         }
         System.out.println();
     }
+//    拷贝函数
+    public static int[] copy(int[] arr){
+        int[] temp = new int[arr.length];
+        for (int i = 0;i<arr.length;i++){
+            temp[i] = arr[i];
+        }
+        return temp;
+    }
+
 }

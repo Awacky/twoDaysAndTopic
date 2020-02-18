@@ -6,7 +6,5 @@ package org.lanqiao.algo.elementary._03Sort;
  */
 //希尔排序
 public class ShellSort {
-    private static void shellSort(int[] arr){
 
-    }
 }
