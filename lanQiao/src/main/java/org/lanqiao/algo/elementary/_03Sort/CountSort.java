@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @date 2020/2/18 21:19
  */
 public class CountSort {
-    private static void countSort(int[] arr){
+     static void countSort(int[] arr){
         int[] helper = new int[Util.maxOf(arr)+1];
         for (int e : arr){
             helper[e]++;

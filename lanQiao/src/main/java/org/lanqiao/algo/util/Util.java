@@ -312,6 +312,14 @@ public class Util {
         return max;
     }
 
+    public static int minOf(int[] arr){
+        int min = Integer.MAX_VALUE;
+        for (int i = 0 ;i<arr.length;i++){
+            min = Math.min(min,arr[i]);
+        }
+        return min;
+    }
+
     public static void print(int[] arr) {
         System.out.println(Arrays.toString(arr));
     }
