@@ -6,7 +6,7 @@ package org.lanqiao.algo.elementary._05Str;
  */
 //翻转字符串
 public class _1_2ReverseString {
-    public String reverseString(String iniString){
+    public static String reverseString(String iniString){
         int len = iniString.length();
         char[] charArr = new char[len];
         int current = 0;
