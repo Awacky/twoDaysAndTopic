@@ -11,5 +11,4 @@ package org.lanqiao.algo.elementary._05Str;
     * p[j] == p[k], 则next[j+1] = k+1;
     *否则： k继续回溯，p[j] == p[k]，或者k<0*/
 public class Match03_Kmp {
-
 }
