@@ -15,4 +15,8 @@ public class Case4_欧几里得算法 {
     private static long lcm(long a,long b){
         return a * b / gcd(a,b);
     }
+
+    public static void main(String[] args) {
+        System.out.println(gcd(127,97));
+    }
 }
