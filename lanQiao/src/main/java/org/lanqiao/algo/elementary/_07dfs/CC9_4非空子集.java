@@ -1,9 +1,6 @@
 package org.lanqiao.algo.elementary._07dfs;
 
-import org.lanqiao.algo.elementary._06_math.Case11_NExponent;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -83,9 +80,10 @@ public class CC9_4非空子集 {
 //    列表是集合的子类
 //    元素是正序，检查从大小，从大排序。
     public ArrayList<ArrayList<Integer>> getSubsets(int[] A,int n){
-        Arrays.sort(A);//正序排序
+//        Arrays.sort(A);//正序排序
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();//大集合
-        for (int i = Case11_NExponent.ex(2,n)-1;i > 0;i--){
+//        使用数学方法是可以的，但是老师用的方法时间度更短点。
+        for (int i = (int) (Math.pow(2,n)-1); i > 0; i--){
             ArrayList<Integer> ints = new ArrayList<>();//对每一个i建立一个
             for (int j = n -1;j >=0;j--){//检查那个位上的二进制为1
                 if (((i >> j) & 1) == 1){
@@ -97,7 +95,7 @@ public class CC9_4非空子集 {
         return res;
     }
     public static void main(String[] args) {
-        int[] A = {1,2};
+        int[] A = {3,2,1};
         CC9_4非空子集 obj = new CC9_4非空子集();
         Set<Set<Integer>> subset3 = obj.getSubsets2(A, A.length);
         ArrayList<ArrayList<Integer>> subsets = obj.getSubsets(A, A.length);
