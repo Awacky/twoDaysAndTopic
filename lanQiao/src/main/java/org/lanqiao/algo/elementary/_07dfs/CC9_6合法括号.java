@@ -34,7 +34,7 @@ public class CC9_6合法括号 {
         }
         return s_n;
     }
-//    这道题用迭代怎么做
+//    迭代的做法
     public Set<String> parenthesis2(int n){
         Set<String> s_n = new HashSet<>();
         s_n.add("()");
