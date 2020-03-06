@@ -16,7 +16,9 @@ package org.lanqiao.algo.elementary._07dfs;
  *
  * 给定n和k，返回第k个排列序列。
 注:给定n为1到9之间，含9。*/
+//这个是查找第k个字符串。
 public class _9_5全排列iii {
+
 
     final static int k = 3;
     static int count = 0;
