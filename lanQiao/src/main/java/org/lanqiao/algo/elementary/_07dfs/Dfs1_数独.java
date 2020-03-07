@@ -64,26 +64,27 @@ import java.util.Scanner;
 
 
 public class Dfs1_数独 {
-    private static void dfs(char[][] table,int x,int y){
+    private static void dfs(char[][] table,int x,int y,long startTime){
         if(x == 9){
-            printf(table);
+            print(table);
+            long endTime = System.currentTimeMillis();//获得结束时间
+            System.out.println(endTime - startTime + "ms");
             System.exit(0);
         }
         if(table[x][y] == '0'){
             //选1-9之间合法的数字填到x,y这个位置
             for(int i = 1;i < 10;i++){
 //                检查table 里面x这一行没有i，y这一列没有i
-                boolean res = check(table,x,y,i);
-                if(res){
+                if(check(table,x,y,i)){
                     table[x][y] = (char)('0' + i);//转移到下一个状态
-                    dfs(table, x + (y + 1) / 9, (y + 1) % 9);//处理下一个状态
+                    dfs(table, x + (y + 1) / 9, (y + 1) % 9,startTime);//处理下一个状态
                 }
             }
             //回溯
             table[x][y] = '0';
         }else{
             //继续找下一个需要处理的位置
-            dfs(table, x + (y + 1) / 9, (y + 1) % 9);//处理下一个状态
+            dfs(table, x + (y + 1) / 9, (y + 1) % 9,startTime);//处理下一个状态
         }
     }
     private static void printf(char[][] table) {
@@ -124,6 +125,8 @@ public class Dfs1_数独 {
         for (int i = 0;i < 9;i++){
             table[i] = input.nextLine().toCharArray();
         }
-        dfs(table,0,0);
+        long startTime = System.currentTimeMillis();//获取开始时间
+        dfs(table,0,0,startTime);
+
     }
 }
