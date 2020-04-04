@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c35c1b6-37f4-4a26-a048-f5a72c620c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/_03Sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/lanQiaoMoNi/_7_/_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lanQiao/src/main/java/org/lanqiao/algo/elementary/lanQiaoMoNi/_7_/_Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,18 +69,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.heapSort">
     <configuration name="TheReverseOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -202,6 +186,7 @@
       <workItem from="1581339100847" duration="26000" />
       <workItem from="1581339588947" duration="48000" />
       <workItem from="1581951701416" duration="64000" />
+      <workItem from="1586012546374" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="好难理解  那个异或的的功能">
       <created>1579010929862</created>

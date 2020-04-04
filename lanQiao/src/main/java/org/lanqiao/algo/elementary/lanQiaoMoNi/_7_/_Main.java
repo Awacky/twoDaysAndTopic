@@ -35,8 +35,8 @@ import java.util.Scanner;
 //        　　对于 70% 的评测用例，2 <= n, m <= 100。
 //        　　对于所有评测用例，2 <= n, m <= 1000，1 <= k <= 1000。
 public class _Main {
-    public static ArrayList<Integer> row;
-    public static ArrayList<Integer> col;
+    public static ArrayList<Integer> row = new ArrayList<Integer>();
+    public static ArrayList<Integer> col = new  ArrayList<Integer>();;
     public static int x = 0;
     public static int y = 0;
     public static char chr = 'g';
@@ -85,8 +85,8 @@ public class _Main {
             for(int j = 0;j < m;j++){
                 if(caidi[i][j] == chr){
 
-                    row.add((Integer) i);
-                    col.add((Integer) j);
+                    row.add( i);
+                    col.add( j);
                 }
             }
         }
