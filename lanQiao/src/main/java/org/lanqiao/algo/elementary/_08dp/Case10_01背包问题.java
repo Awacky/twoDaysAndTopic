@@ -24,7 +24,7 @@ public class Case10_01背包问题 {
     static int n = 4; //物品数量
     static int W = 5;//背包的载重量
     public static void main(String[] args) {
-        int ww =W;
+        int ww =W;//外面的尽量不要变，做一个副本。
         int ans = dfs(0,ww);
         System.out.println(ans);
 
@@ -35,11 +35,14 @@ public class Case10_01背包问题 {
         }
         ww = W;
         ans = m(0,ww);
-        System.out.println(ans);
-        System.out.println(dp());
+//        System.out.println(ans);
+//        System.out.println(dp());
 
     }
 //    2^n的复杂度
+//    这个思路就是：这个东西要不要，要的话，是一个，不要的话，是另外一个。
+//    i代表的是从第几个数选，ww代表的是现在距离最大承受的重量还剩多少。
+//    递归树的问题
     static int dfs(int i , int ww){
         if (ww < 0) return 0;//装不进去了
         if (i == n) return 0;//没东西可以选了
@@ -70,7 +73,7 @@ public class Case10_01背包问题 {
         }else {
             ans = v2;
         }
-//        2、计算结构后保存
+//        2、计算之后保存
         rec[i][ww] = ans;
         return ans;
     }
