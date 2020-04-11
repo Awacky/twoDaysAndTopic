@@ -73,7 +73,7 @@ public class Case10_01背包问题 {
         }else {
             ans = v2;
         }
-//        2、计算之后保存
+//        2、计算之 后保存
         rec[i][ww] = ans;
         return ans;
     }
