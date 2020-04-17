@@ -54,9 +54,47 @@ public class Case12_数字三角形 {
     }
 
 //    动态规划，记忆性递归
-    public int triangleDp(int[][] triangle,int i ,int j){
-
+    public static int maxSumUsingMemory(int[][] triangle,int i ,int j,int[][] map){
+        int rowIndex = triangle.length;
+        int value = triangle[i][j];
+        if (i == rowIndex - 1) {
+        } else {
+            //缓存有值，便不递归
+            int v1 = map[i + 1][j];
+            if (v1 == 0) {
+                v1 = maxSumUsingMemory(triangle, i + 1, j, map);
+            }
+            //缓存有值，便不递归
+            int v2 = map[i + 1][j + 1];
+            if (v2 == 0) {
+                v2 = maxSumUsingMemory(triangle, i + 1, j + 1, map);
+            }
+            value = value
+                    + max(v1, v2);
+        }
+        //放入缓存
+        map[i][j] = value;
+        return value;
+    }
+//    其他办法：
+    public static int maxSumUsingDp(int[][] triangle,int i ,int j){
+        int rowCount = triangle.length;//行数
+        int columnCount = triangle[rowCount - 1].length;//最后一行的列数
+        int[] dp = new int[columnCount];
+        for (int k = 0;k < columnCount;k++){
+//            初始化dp
+            dp[k] = triangle[rowCount - 1][k];
+        }
+        for (int k = rowCount - 2;k >= 0;k--){
+            for (int l = 0; l <= k;l++){
+                dp[i] = triangle[k][l] + max(dp[l],dp[l+1]);
+            }
+        }
+        return dp[0];
     }
 
 //    方法三，自底而上，迭代思想。
+
+
+//
 }
