@@ -57,7 +57,7 @@ public class CC9_6合法括号 {
 
     public static void main(String[] args) {
         CC9_6合法括号 Obj = new CC9_6合法括号();
-        Set<String> parenthesis = Obj.parenthesis2(3);
+        Set<String> parenthesis = Obj.parenthesis2(4);
         System.out.println(parenthesis);
     }
 }
