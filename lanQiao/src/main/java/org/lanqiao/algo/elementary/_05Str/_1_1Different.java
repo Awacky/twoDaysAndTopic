@@ -25,7 +25,7 @@ public class _1_1Different {
 
     public static void main(String[] args) {
         String iniString = "BarackObama";
-        iniString = "abcdefg";
+        iniString = "abc";
         System.out.println(new  _1_1Different().checkDifferent(iniString));
     }
 
